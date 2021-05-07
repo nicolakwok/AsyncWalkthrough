@@ -1,0 +1,10 @@
+﻿<Window x:Class="AsyncWalkthrough.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button x:Name="startButton" Content="Start" Margin="151,19,283,0" VerticalAlignment="Top" Click="startButton_Click" FontWeight="Bold" />
+        <Button x:Name="otherButton" Content="干扰测试" Margin="251,19,183,0" VerticalAlignment="Top" Click="otherButton_Click" FontWeight="Bold" />
+        <TextBox x:Name="resultsTextBox" HorizontalAlignment="Left" Margin="8,62,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="500" Height="250" FontFamily="Lucida Console" VerticalScrollBarVisibility="Auto"/>
+    </Grid>
+</Window>
